@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>熱盛ボタン：orangeliner.net</title>
+
+    <meta name="keywords" content="熱盛,熱盛ボタン,アツモリ">
+    <meta name="description" content="スマホ・PCからいつでもどこでも「ｱﾂﾓﾘｨｯ!!!!!!!!」できるボタン">
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <link rel="icon" href="/app/favicon.ico">
+    <link rel="apple-touch-icon" sizes="144x144" href="/app/apple-touch-icon.png">
+    <link rel="mask-icon" href="/app/safari-pinned-tab.svg" color="#ff4012">
+    <meta name="theme-color" content="#ff4012">
+
+    <link href="assets/style.css" rel="stylesheet" type="text/css">
+    <script src="assets/play2.js"></script>
+  </head>
+  <body>
+    <div class="center">
+      <h1 class="orange">ｱﾂﾓﾘｨｯ!!!! ボタン</h1>
+
+      <p>あなたは&nbsp;<?php @include('./counter.php'); ?>&nbsp;人目の視聴者</p>
+      <p class="red">【注】サウンドが再生されます</p>
+    </div>
+
+    <main>
+      <div class="btnContainer">
+        <div id="btn1" class="soundBtn"><img src="./img/atsumori_std.png" alt="btn1"></div>
+        <div id="btn2" class="soundBtn"><img src="./img/atsumori_long.png" alt="btn2"></div>
+        <div id="btn3" class="soundBtn"><img src="./img/atsumori_party.png" alt="btn3"></div>
+        <div id="btn4" class="soundBtn"><img src="./img/atsumori_rev.png" alt="btn4"></div>
+        <div id="btn0" class="resetBtn"><img src="./img/apologize.png" alt="btn0"></div>
+      </div>
+      <div class="clickCounter">
+        <h3><span id="clickCount">0</span>&nbsp;回&nbsp;<span class="orange">ｱﾂﾓﾘｨｯ!!!!!!!!!</span>&nbsp;が出ました</h3>
+      </div>
+    </main>
+
+    <div class="center">
+      他の人に教える
+      <a href="https://twitter.com/share" class="twitter-share-button" data-via="asagiri96mc" data-url="https://atsumori.orangeliner.net/" data-text="いつでもどこでも【ｱﾂﾓﾘｨｯ!!!! ボタン】" data-lang="ja">ツイート</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+      <br>
+      <a href="https://twitter.com/asagiri96mc" target="_blank">作った人</a>
+    </div>
+
+    <details>
+      <summary>iPhone / iPad での動作について</summary>
+      <p>iOS 10以降のSafariで連続タップすると画面が拡大・縮小されてしまいますので、Google Chromeブラウザからのアクセスを推奨します。</p>
+    </details>
+
+    <details>
+      <summary>アップデート履歴</summary>
+      <ul>
+        <li>2017/08/25&nbsp;v1.0<br>公開</li>
+        <li>2017/08/25&nbsp;v1.1<br>謝罪機能を追加</li>
+        <li>2017/08/28&nbsp;v1.2<br>ねっとり熱盛を追加</li>
+        <li>2017/08/28&nbsp;v1.3<br>謝罪機能の挙動を変更</li>
+        <li>2017/08/30&nbsp;v2.0<br>同一音声の連続再生に対応</li>
+        <li>2017/09/08&nbsp;v2.1<br>アクセスカウンターをSSL化</li>
+        <li>2017/10/31&nbsp;v2.2<br>音量を調整</li>
+        <li>2018/02/15&nbsp;v2.3<br>音声を追加</li>
+        <li>2020/11/30&nbsp;v3.0<br>リニューアル<br>謝罪機能の挙動を修正</li>
+      </ul>
+    </details>
+
+    <div class="notice">
+      <small>
+        「熱盛」ロゴは株式会社テレビ朝日の登録商標です。当サイトは非営利運営ですが、予告なく閉鎖する場合があります。
+      </small>
+    </div>
+
+    <footer>
+      <p>&copy;&nbsp;2020 orangeliner.net</p>
+    </footer>
+  </body>
+</html>

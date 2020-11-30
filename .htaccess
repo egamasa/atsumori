@@ -1,0 +1,17 @@
+RewriteEngine on
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+Redirect 301 /atsumori/ "https://atsumori.orangeliner.net/"
+
+AddType application/x-httpd-php .html
+
+<Files ~ "\.dat$">
+	deny from all
+</Files>
+
+<Files ~ "\.(html | js | png | wav | dat)$">
+Header add Pragma "no-cache"
+Header set Cache-Control no-cache
+</Files>
+

@@ -1,0 +1,13 @@
+{
+	"lang": "ja",
+	"name": "ｱﾂﾓﾘｨｯ!!!! ボタン：orangeliner.net",
+	"short_name": "熱盛ボタン",
+	"icons": [{
+			"src": "/app/app-icon.png",
+			"sizes": "144x144",
+			"type": "image/png"
+	}],
+	"start_url": "https://atsumori.orangeliner.net/#",
+	"display": "standalone",
+	"theme_color": "#ff4012"
+}
